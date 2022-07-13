@@ -11,13 +11,20 @@ Students enrolled in this course may download raw data (not public) through [Glo
 
 
 ## Instructions for downloading data:
-1. Download and install [Globus Connect Personal](https://www.globus.org/globus-connect-personal) software onto your machine.
-2. Follow the instructions to activate your endpoint. You should see a tiny "G" on the top menu bar (Mac) or bottom (Windows) if your endpoint is activated.
+#### 1. Download and install [Globus Connect Personal](https://www.globus.org/globus-connect-personal) software onto your machine.
+#### 2. Follow the instructions to activate your endpoint. You should see a tiny "G" on the top menu bar (Mac) or bottom (Windows) if your endpoint is activated:
+
 ![Globus connect personal](img/globus-connect-personal.png)
-3. Log onto [Globus](https://www.globus.org/) and navigate to the file browser.
-4. Search for the endpoint that contains all of the course data. After the course, data will be kept in the "Yeo Lab Collaboration Space" under the folder "/cshl_2022_from_jupyterhub/":
+
+#### 3. Log onto [Globus](https://www.globus.org/) and navigate to the file browser.
+#### 4. Search for the endpoint that contains all of the course data. After the course, data will be kept in:
+
+- Collection: **"Yeo Lab Collaboration Space"**
+- Path: **"/cshl_2022_from_jupyterhub/"**
+
 ![Collection](img/collection.png) (Or, click this [link](https://app.globus.org/file-manager?origin_id=6bfaee95-e061-4ad8-a4ef-0e65ef4aabc8&origin_path=%2Fcshl_2022_from_jupyterhub%2F) if you are already logged in).
-5. Search for your own endpoint (you will have named your endpoint during setup). If you only see one panel, you may need to select the "double pane" view:
+
+#### 5. Search for your own endpoint (you will have named your endpoint during setup). If you only see one panel, you may need to select the "double pane" view:
 ![File manager](img/file-manager.png)
-6. Use the Globus file manager to initiate a transfer:
+#### 6. Use the Globus file manager to initiate a transfer:
 ![Start](img/start.png)
